@@ -4,13 +4,13 @@ int main()
 {
    int c;
 scanf("%c",&c);
-if (c='z')
+if (c=='z')
 {
     printf("a");
 }
 else
 {
-    printf();
-
+    printf("%c", c + 1);
+}
     return 0;
 }
